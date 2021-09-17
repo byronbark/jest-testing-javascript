@@ -1,0 +1,18 @@
+{
+	"name": "testing",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test:problem_one": "jest ./Problem_One/tests",
+		"test:problem_two": "jest ./Problem_Two/tests",
+		"test:problem_three": "jest ./Problem_Three/tests",
+		"test:problem_four": "jest ./Problem_Four/tests"
+	},
+	"author": "Byron Barkhuizen",
+	"license": "ISC",
+	"dependencies": {
+		"@types/jest": "^25.1.4",
+		"jest": "^25.1.0"
+	}
+}
